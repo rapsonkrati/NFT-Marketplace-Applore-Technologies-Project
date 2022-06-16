@@ -4,7 +4,7 @@
   position: absolute;
   width: 396px;
   height: 30px;
-  left: 513.5px;
+  left: 550px;
   top: 2302px;
 
   font-family: "Montserrat";
@@ -17,4 +17,345 @@
   letter-spacing: 0.02em;
 
   color: #ffffff;
+}
+
+.endingsoon {
+  position: absolute;
+  width: 396px;
+  height: 30px;
+  left: 750px;
+  top: 2320px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 108.4%;
+  /* or 30px */
+
+  letter-spacing: 0.02em;
+
+  color: #ff7722;
+}
+.endingsoon select {
+  background-color: black;
+  color: #ff7722;
+  font-size: 28px;
+  width: 200px;
+  border: 0;
+  outline: 0;
+  text-overflow: "";
+  scroll-behavior: smooth;
+  -webkit-appearance: button;
+}
+.cardsauction {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 283px;
+  height: 403px;
+  left: 29.5px;
+  top: 2380px;
+
+  background: #1f1f1f;
+  mix-blend-mode: normal;
+  border: 0.5px solid #2d2d2d;
+  border-radius: 20px;
+}
+.cardsauction2 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 283px;
+  height: 403px;
+  left: 338.5px;
+  top: 2380px;
+
+  background: #1f1f1f;
+  mix-blend-mode: normal;
+  border: 0.5px solid #2d2d2d;
+  border-radius: 20px;
+}
+.cardsauction3 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 283px;
+  height: 403px;
+  left: 647.5px;
+  top: 2380px;
+
+  background: #1f1f1f;
+  mix-blend-mode: normal;
+  border: 0.5px solid #2d2d2d;
+  border-radius: 20px;
+}
+.cardsauction4 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 283px;
+  height: 403px;
+  left: 956.5px;
+  top: 2380px;
+
+  background: #1f1f1f;
+  mix-blend-mode: normal;
+  border: 0.5px solid #2d2d2d;
+  border-radius: 20px;
+}
+.cardsauction5 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 252px;
+  height: 403px;
+  left: 1265.5px;
+  top: 2377px;
+
+  background: #1f1f1f;
+  mix-blend-mode: normal;
+  border: 0.5px solid #2d2d2d;
+  border-radius: 20px;
+}
+.cardimg1 {
+  position: absolute;
+  width: 283px;
+  height: 266px;
+  background: url(../images/card1.png), #f7c3c3;
+  border-radius: 20px 20px 0px 0px;
+}
+.cardimg2 {
+  position: absolute;
+  width: 283px;
+  height: 266px;
+  background: url(../images/card2.png), #f7c3c3;
+  border-radius: 20px 20px 0px 0px;
+}
+.cardimg3 {
+  position: absolute;
+  width: 283px;
+  height: 266px;
+  background: url(../images/card3.png), #f7c3c3;
+  border-radius: 20px 20px 0px 0px;
+}
+.cardimg4 {
+  position: absolute;
+  width: 283px;
+  height: 266px;
+  background: url(../images/card4.png), #f7c3c3;
+  border-radius: 20px 20px 0px 0px;
+}
+.cardimg5 {
+  position: absolute;
+  width: 170px;
+  height: 266px;
+  background: url(../images/card5.png), #f7c3c3;
+  border-radius: 20px 20px 0px 0px;
+}
+.artname {
+  position: absolute;
+  width: 118px;
+  height: 22px;
+  left: 20px;
+  top: 260px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 137.4%;
+  /* identical to box height, or 22px */
+
+  color: #ffffff;
+}
+.cardimg1_1 {
+  position: absolute;
+  width: 29px;
+  height: 29px;
+  left: 20px;
+  top: 310px;
+  background: url(../images/card1.1.svg);
+}
+.cardimg1_2 {
+  position: absolute;
+  width: 29px;
+  height: 29px;
+  left: 150px;
+  top: 310px;
+  background: url(../images/card1.2.svg);
+}
+.cardimg2_1 {
+  position: absolute;
+  width: 29px;
+  height: 29px;
+  left: 20px;
+  top: 310px;
+  background: url(../images/card1.1.svg);
+}
+.cardimg2_2 {
+  position: absolute;
+  width: 29px;
+  height: 29px;
+  left: 150px;
+  top: 310px;
+  background: url(../images/card1.2.svg);
+}
+.cardimg3_1 {
+  position: absolute;
+  width: 29px;
+  height: 29px;
+  left: 20px;
+  top: 310px;
+  background: url(../images/card1.1.svg);
+}
+.cardimg3_2 {
+  position: absolute;
+  width: 29px;
+  height: 29px;
+  left: 150px;
+  top: 310px;
+  background: url(../images/card1.2.svg);
+}
+.cardimg4_1 {
+  position: absolute;
+  width: 29px;
+  height: 29px;
+  left: 20px;
+  top: 310px;
+  background: url(../images/card1.1.svg);
+}
+.cardimg4_2 {
+  position: absolute;
+  width: 29px;
+  height: 29px;
+  left: 150px;
+  top: 310px;
+  background: url(../images/card1.2.svg);
+}
+.cardimg5_1 {
+  position: absolute;
+  width: 29px;
+  height: 29px;
+  left: 20px;
+  top: 310px;
+  background: url(../images/card1.1.svg);
+}
+.cardimg5_2 {
+  position: absolute;
+  width: 29px;
+  height: 29px;
+  left: 150px;
+  top: 310px;
+  background: url(../images/card1.2.svg);
+}
+.owner {
+  position: absolute;
+  width: 35px;
+  height: 14px;
+  left: 60px;
+  top: 300px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 137.4%;
+  color: #ffffff;
+}
+.username {
+  position: absolute;
+  width: 63px;
+  height: 16px;
+  left: 60px;
+  top: 310px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 137.4%;
+  /* or 16px */
+
+  color: #ffffff;
+}
+.creator {
+  position: absolute;
+  width: 39px;
+  height: 14px;
+  left: 190px;
+  top: 300px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 137.4%;
+  /* identical to box height, or 14px */
+
+  color: #ffffff;
+}
+.username2 {
+  position: absolute;
+  width: 63px;
+  height: 16px;
+  left: 190px;
+  top: 310px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 137.4%;
+  /* or 16px */
+
+  color: #ffffff;
+}
+.bid {
+  position: absolute;
+  width: 248px;
+  height: 44px;
+  left: 18px;
+  top: 346px;
+
+  background: #fffaf8;
+  border-radius: 10px;
+}
+.bidamt {
+  position: absolute;
+  width: 72px;
+  height: 16px;
+  left: 20px;
+  top: 3px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 137.4%;
+  /* or 16px */
+
+  color: #484848;
+}
+.amt {
+  position: absolute;
+  width: 28px;
+  height: 19px;
+  left: 180px;
+  top: 12px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 137.4%;
+  /* or 19px */
+
+  color: #000000;
+}
+.eth {
+  background: url(../images/eth.svg);
+  position: absolute;
+  width: 12px;
+  height: 18px;
+  left: 220px;
+  top: 12px;
 }
