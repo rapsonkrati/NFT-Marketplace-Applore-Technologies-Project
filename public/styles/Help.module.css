@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
+  color: white;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.head{
+    font-size: 30px;
+    font-weight: 400;
+    display: flex;
+    justify-content:center;
+    margin-top: 1em;
+    flex-direction: column;
+}
+.mainbtn{
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+.mainbtn button:hover{
+    background: linear-gradient(180deg, #FFFFFF 0%, #F46B45 0.01%, #EEA849 99.48%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    border: 0.6px solid #EEA849;
+}
+.mainbtn button{
+    cursor: pointer;
+    padding: 15px 45px;
+    border-radius: 42px;
+    border: 0.6px solid #FFFFFF;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* 
+Help */
+.cardcon{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  .cardflex{
+    padding: 10px;
+  }
+  .card{
+      border-radius: 10px;
+    mix-blend-mode: normal;
+  border: 0.4px solid #383838;
+    padding: 15px;
+    max-width: 300px;
+    margin: 0.5em;
+    margin-bottom: 0.1em;
+    margin-top: 0.1em;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .cardtitle{
+    display: flex;
+    justify-content: center;
+    flex-basis: 30%;
+  }
+  .carddesc{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-basis: 55%;
+  }
+  
+  .carddesc p{
+    text-align: center;
+  }
+  
+.chat{
+display: flex;
+justify-content: right;
+margin: 0em 2em 2em 0;
+}  
+.chat button{
+    padding: 10px 20px;
+    background: #FF7722;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    border-radius: 20px;
+}
+/* 
+Submit request */
+

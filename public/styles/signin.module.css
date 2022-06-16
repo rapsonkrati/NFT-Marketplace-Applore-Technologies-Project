@@ -1,0 +1,26 @@
+.signin{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+  }
+  .container{
+    height: 100vh;
+    background: #181B1F;
+    color:white;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+  }
+  .metabtn{
+    background: #24A0ED;
+    padding: 10px;
+    border-radius: 5px;
+
+  }
+  .para{
+    word-wrap: break-word;
+  }
+  .btncon{
+    margin-top: 15px;
+  }
