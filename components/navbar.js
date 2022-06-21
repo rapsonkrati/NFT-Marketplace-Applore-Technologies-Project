@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Icon from "../public/images/youtube.svg";
 import Styles from "../public/styles/Home.module.css";
+
 const Navbar = () => {
   return (
     <div className={Styles.navbar}>

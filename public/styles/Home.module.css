@@ -145,7 +145,7 @@
 /* Discover Quote */
 .headmain {
   position: absolute;
-  width: 767px;
+  width: 50%;
   height: 118px;
   left: 48px;
   top: 200px;
@@ -1298,8 +1298,8 @@
 /* Descripption in Footer */
 .desfooter {
   position: absolute;
-  width: 334px;
-  height: 128px;
+  width: 25%; /* 1500px/300 */
+  height: 50%;
   left: 45px;
   top: 6630px;
 

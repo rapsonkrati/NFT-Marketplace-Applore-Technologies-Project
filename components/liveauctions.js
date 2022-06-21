@@ -108,7 +108,7 @@ const LiveAuction = () => {
                 <span className={Styles.cardimg5_2}></span>
                 <p className={Styles.creator}>Creator</p>
                 <p className={Styles.username2}>Username</p>
-                <span className={Styles.bid}>
+                <span className={Styles.bidside}>
                     <p className={Styles.bidamt}>Highest bid</p>
                     <span className={Styles.amt}>400</span>
                     <span className={Styles.eth}></span>

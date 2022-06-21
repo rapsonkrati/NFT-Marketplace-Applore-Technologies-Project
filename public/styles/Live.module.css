@@ -359,3 +359,13 @@
   left: 220px;
   top: 12px;
 }
+.bidside {
+  position: absolute;
+  width: 235px;
+  height: 44px;
+  left: 18px;
+  top: 346px;
+
+  background: #fffaf8;
+  border-radius: 10px;
+}
