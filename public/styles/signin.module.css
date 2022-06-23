@@ -20,7 +20,25 @@
   }
   .para{
     word-wrap: break-word;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 137.4%;
+/* or 22px */
+
+
+color: #FFFFFF;
   }
   .btncon{
     margin-top: 15px;
+  }
+  .wallet{
+    color: #FF7722;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 137.4%;
+/* or 22px */
   }

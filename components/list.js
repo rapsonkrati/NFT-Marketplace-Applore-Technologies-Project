@@ -1,4 +1,4 @@
-  
+
 const Displaylist=(listitem)=>{
     return(<ul>
             {listitem.map(function(a,b){

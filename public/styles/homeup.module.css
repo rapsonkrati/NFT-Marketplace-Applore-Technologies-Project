@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Otomanopee+One&display=swap");
+
+
+
+.headmain {
+  width:50%;
+  height:auto;
+  margin-left: 2%;
+  margin-top: -30%;
+  font-family: "Otomanopee One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  color: #ffffff;
+}
+.para{
+  width:45%;
+  height: auto;
+  margin-top: 0%;
+  margin-left: 2%;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 137.4%;
+color: #FFFFFF;
+}
+.button{
+display: flex;
+width: 45%;
+padding-left: 5%;
+}
+
+.explore{
+width:37%;
+height:auto;
+border: 2px solid #FFFFFF;
+border-radius: 5px;
+padding-left: 8%;
+padding-right: 8%;
+padding-top: 1.5%;
+padding-bottom: 1.5%;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 137.4%;
+color: #FFFFFF;
+}
+.explore:hover{
+   cursor: pointer;
+}
+.create{
+  margin-left: 10%;
+  width:37%;
+height:auto;
+background: #232323;
+border-radius: 5px;
+border-radius: 5px;
+padding-left: 8%;
+padding-right: 8%;
+padding-top: 1.5%;
+padding-bottom: 1.5%;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 137.4%;
+color: #FFFFFF;
+}
+.create:hover{
+  cursor: pointer;
+  border: 2px solid #FFFFFF;
+border-radius: 5px;
+font-size: 22px;
+}
+.toplogo {
+ width: 50%;
+ height: auto;
+  background: url(../images/logo.png);
+}
+.homelogo {
+  position: relative;
+  display: flex;
+  flex-basis: 35%;
+  padding: 20px;
+width: 40%;
+height:auto;
+margin-left:60%;
+margin-top: 10%;
+}
+.containermain{
+  color: #FFFFFF;
+}
+.achivement1cont{
+  display: flex;
+  padding-top: 5%;
+  padding-left: 5%;
+}
+.achivement1 {
+width: 15%;
+position: relative;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2em;
+  line-height: 108.4%;
+  letter-spacing: 0.02em;
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #f46b45 0.01%,
+    #eea849 99.48%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.achivement2 {
+position: relative;
+margin-left: 9%;
+width:12%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 108.4%;
+  /* or 35px */
+
+  letter-spacing: 0.02em;
+
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #f46b45 0.01%,
+    #eea849 99.48%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.achivement3{
+position: relative;
+margin-left: 12%;
+width: 17%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 108.4%;
+  /* or 35px */
+
+  letter-spacing: 0.02em;
+
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #f46b45 0.01%,
+    #eea849 99.48%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.achcontpara{
+  display: flex;
+  padding-left: 5%;
+}
+.achivement1p {
+width: 15%;
+height: auto;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 108.4%;
+  /* or 17px */
+
+  letter-spacing: 0.02em;
+
+  color: #ede4e4;
+}
+.achivement2p{
+margin-left: 9%;
+width: 15%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 108.4%;
+  /* or 17px */
+
+  letter-spacing: 0.02em;
+
+  color: #ede4e4;
+}
+.achivement3p{
+    /* 
+width: 20%;
+margin-left: 50%; */
+/* position: relative;
+padding-top: 3%;
+margin-left: -13%;
+width: 20%; */
+margin-left:9%;
+width: 18%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 108.4%;
+  /* or 17px */
+
+  letter-spacing: 0.02em;
+
+  color: #ede4e4;
+}

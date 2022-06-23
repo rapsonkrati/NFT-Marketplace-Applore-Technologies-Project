@@ -7,6 +7,7 @@ import LiveAuction from "../components/liveauctions";
 import Topcollection from "../components/tcollection";
 import Topcollectors from "../components/topcollectors";
 import Topbids from "../components/topbids";
+import Explorehome from "../components/explorehome";
 function Home() {
   return (
     <div className={styles.container}>
@@ -17,6 +18,7 @@ function Home() {
       <Topcollection></Topcollection>
       <Topcollectors></Topcollectors>
       <Topbids></Topbids>
+      <Explorehome></Explorehome>
       <footer className={styles.footer}><Listmain /></footer></div>
 
   );
