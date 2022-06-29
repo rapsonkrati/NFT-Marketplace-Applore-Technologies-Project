@@ -140,12 +140,15 @@ color: #8D8D8D;
 }
 .listcontainer{
   display: flex;
-  flex-direction:row;
+}
+.meds{
+  flex-basis: 50%;
+  display: flex !important;
+  justify-content: space-around;
 }
 .listcontainer1{
   width:30%;
-  margin-left: 10%;
-  
+  margin-left: 5%;  
 }
 .listtitle{
   font-family: 'Montserrat';
@@ -180,8 +183,14 @@ padding-top:2%;
 padding-left: 1%;
 padding-right: 1%;
 word-wrap: normal;
-  width:20%;
-
+width:20%;
+}
+.meds{
+  display: block !important;
+  justify-content: space-around;
+}
+.listcontainer1{
+  margin-bottom: 7%;  
 }
 .joc{
 padding-bottom: 2%;
