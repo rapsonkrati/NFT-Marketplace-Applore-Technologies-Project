@@ -21,8 +21,8 @@ const Homeup = () => {
                 </homeimage>
                 <div>
                     <div>
-                        <h1 className={Styles.headmain}>Discover, find, and sell extraordinary NFTs</h1>
-                        <p className={Styles.para}> Lörem ipsum krov sysungen. Tisans antektig, och doll. Vare teranykon i spår. Yska anamatisk fonat utan pedat. Kuling ada</p>
+                        <h1 className={Styles.headmain}>Explore, buy and sell amazing fine art, collectables and NFTs at NFTSuit.</h1>
+                        <p className={Styles.para}> We are India's first NFT buy-sell marketplace where you can buy and sell awesome NFTs from our impressive collection of premium sellers.</p>
                     </div>
 
                     <div className={Styles.button}>

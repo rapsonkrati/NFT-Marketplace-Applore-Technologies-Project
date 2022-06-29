@@ -1,6 +1,6 @@
 import Home from "../pages";
 import Displaylist from "./list";
-import styles from "../public/styles/Home.module.css";
+import styles from "../public/styles/footer.module.css";
 import discord from "../public/images/discord.svg";
 import fb from "../public/images/facebook.svg";
 import insta from "../public/images/insta.svg";
@@ -49,55 +49,159 @@ const Listmain = () => {
     { name: "Grants" }
   ];
   return (
-    <div className={styles.footcontainer}>
-      <footerup className={styles.footerup}>
-        <getupdate className="updates">
-          <h4 className={styles.getupdates}>Get Updates</h4>
+    <>
+      <div className={styles.footcontainer}>
+
+        <div className={styles.text1}>
+          <text className={styles.gupdates}>Get updates</text>
+          <text className={styles.joc}>Join Our Community</text>
+        </div>
+
+        <div className={styles.inputline}>
           <input className={styles.field} type="text" value="Your e-mail"></input>
           <button className={styles.imin}>I'm in</button>
-        </getupdate>
-        <p className={styles.joc}>Join our Community</p>
-        <icons className={styles.tinyicons}>
-          {displayicons(tweet, insta, fb, discord, yt)}
-        </icons>
-      </footerup>
-      <footerdown>
-        <listcontainer className={styles.Listcontainer}>
-          <desc className={styles.logodis}></desc>
-          <p className={styles.desfooter}>
-            Lörem ipsum sogijävis ässade. Pitas suprarade saning anticentrism,
-            popp protopi men fade för laska. Del lyr fast sagire, plapodissade
-            och segt. Polyvis voning inte fal foling som immersiv kvasidisorat
-            om nösat, och geotonade teng bästsäljerism att gigagt preböktiga
-            bebelt laning.
-          </p>
+          <icons className={styles.tinyicons}>
+            {displayicons(tweet, insta, fb, discord, yt)}
+          </icons>
+        </div>
+
+        <hr className={styles.footerline}></hr>
 
 
-          <hr className={styles.footerline}></hr>
+        <div className={styles.footerlogo}>
+          <span className={styles.logo}></span>
+        </div>
 
-          <h2 className={styles.marketplace}>Marketplace</h2>
-          <list className={styles.Listsmarketplace}>
-            {Displaylist(list1)}
-          </list>
+        <div className={styles.thirdline}>
+          <p>We are India's first NFT buy-sell marketplace where you can buy and sell awesome & exclusive NFTs from our impressive collection of premium sellers. The best part of NFTSuit is that it has no transaction fees.</p>
+        </div>
 
-          <h2 className={styles.myaccount}>My Account</h2>
-          <list className={styles.Listsaccount}>
-            {Displaylist(list2)}
-          </list>
+        <div className={styles.listcontainer}>
+          <div className={styles.listcontainer1}>
+            <h7 className={styles.listtitle}>Marketplace</h7>
+            <list className={styles.list}>
+              {Displaylist(list1)}
+            </list>
+          </div>
 
-          <h2 className={styles.resource}>Resource</h2>
-          <list className={styles.Listsresource}>
-            {Displaylist(list3)}
-          </list>
+          <div className={styles.listcontainer1}>
+            <h7 className={styles.listtitle}>My Account</h7>
+            <list className={styles.list}>
+              {Displaylist(list2)}
+            </list>
+          </div>
+          <div className={styles.listcontainer1}>
+            <h7 className={styles.listtitle}>Resources</h7>
+            <list className={styles.list}>
+              {Displaylist(list3)}
+            </list>
+          </div>
 
-          <h2 className={styles.company}>Company</h2>
-          <list className={styles.Listscompany}>
-            {Displaylist(list4)}
-          </list>
+          <div className={styles.listcontainer1}>
+            <h7 className={styles.listtitle}>Company</h7>
+            <list className={styles.list}>
+              {Displaylist(list4)}
+            </list>
+          </div>
+        </div>
 
-        </listcontainer>
-      </footerdown>
-    </div>
+        {/* <div className={styles.listcontainer2}>
+          <div className={styles.listcontent2}>
+          <h7 className={styles.listtitle2}>My Account</h7>
+          <list className={styles.list2}>
+                {Displaylist(list2)}
+              </list>
+              </div>
+        </div> */}
+        {/* 
+          <div className={styles.listcontainer3}>
+          <h7 className={styles.listtitle3}>Resources</h7>
+          <list className={styles.list3}>
+                {Displaylist(list3)}
+              </list>
+        </div>
+
+           <div className={styles.listcontainer4}>
+          <h7 className={styles.listtitle4}>Company</h7>
+          <list className={styles.list4}>
+                {Displaylist(list4)}
+              </list>
+        </div> */}
+
+      </div>
+    </>
   );
 };
 export default Listmain;
+
+
+
+
+
+
+{/* <div className={styles.listcontainer}>
+            <div className={styles.media1}>
+            <h2 className={styles.listtitle}>Marketplace</h2>
+            <list className={styles.list}>
+              {Displaylist(list1)}
+            </list>
+            </div>
+          </div>
+          <div className={styles.listcontainer}>
+            <div className={styles.media2}>
+  
+            </div>
+          </div>
+          <div className={styles.listcontainer}>
+            <div className={styles.media3}>
+            <h2 className={styles.listtitle}>Resources</h2>
+            <list className={styles.list}>
+              {Displaylist(list3)}
+            </list>
+            </div>
+          </div>
+          <div className={styles.listcontainer}>
+            <div className={styles.media4}>
+            <h2 className={styles.listtitle}>Company </h2>
+            <list className={styles.list}>
+              {Displaylist(list4)}
+            </list>
+            </div> */}
+
+
+
+
+
+
+//   <footerup className={styles.footerup}>
+
+//   </footerup>
+//   <footerdown>
+//     <listcontainer className={styles.Listcontainer}>
+
+
+//
+
+//       <h2 className={styles.listtitle}>Marketplace</h2>
+//       <list className={styles.list}>
+//         {Displaylist(list1)}
+//       </list>
+
+//       <h2 className={styles.myaccount}>My Account</h2>
+//       <list className={styles.Listsaccount}>
+//         {Displaylist(list2)}
+//       </list>
+
+//       <h2 className={styles.resource}>Resource</h2>
+//       <list className={styles.Listsresource}>
+//         {Displaylist(list3)}
+//       </list>
+
+//       <h2 className={styles.company}>Company</h2>
+//       <list className={styles.Listscompany}>
+//         {Displaylist(list4)}
+//       </list>
+
+//     </listcontainer>
+//   </footerdown>
+// </div>
