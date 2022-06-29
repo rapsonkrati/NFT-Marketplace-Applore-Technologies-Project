@@ -19,7 +19,7 @@ const Listmain = () => {
     { name: "Sports", link: "#" },
     { name: "Trading Cards", link: "#" },
     { name: "Utility", link: "#" },
-    { name: "Virtual Worlds", link: "#" }
+    { name: "Virtual Worlds", link: "#" },
   ];
   var list2 = [
     { name: "Profile", link: "#" },
@@ -29,7 +29,7 @@ const Listmain = () => {
     { name: "Settings", link: "#" },
     { name: "Stats", link: "#" },
     { name: "Rankings", link: "#" },
-    { name: "Activity", link: "#" }
+    { name: "Activity", link: "#" },
   ];
   var list3 = [
     { name: "Help Center", link: "#" },
@@ -40,25 +40,28 @@ const Listmain = () => {
     { name: "Taxes", link: "#" },
     { name: "Blog", link: "#" },
     { name: "Docs", link: "#" },
-    { name: "Newsletter", link: "#" }
+    { name: "Newsletter", link: "#" },
   ];
   var list4 = [
     { name: "About", link: "#" },
     { name: "Careers", link: "#" },
     { name: "Ventures", link: "#" },
-    { name: "Grants" }
+    { name: "Grants" },
   ];
   return (
     <>
       <div className={styles.footcontainer}>
-
         <div className={styles.text1}>
           <text className={styles.gupdates}>Get updates</text>
           <text className={styles.joc}>Join Our Community</text>
         </div>
 
         <div className={styles.inputline}>
-          <input className={styles.field} type="text" value="Your e-mail"></input>
+          <input
+            className={styles.field}
+            type="text"
+            value="Your e-mail"
+          ></input>
           <button className={styles.imin}>I'm in</button>
           <icons className={styles.tinyicons}>
             {displayicons(tweet, insta, fb, discord, yt)}
@@ -67,41 +70,41 @@ const Listmain = () => {
 
         <hr className={styles.footerline}></hr>
 
-
         <div className={styles.footerlogo}>
           <span className={styles.logo}></span>
         </div>
 
         <div className={styles.thirdline}>
-          <p>We are India's first NFT buy-sell marketplace where you can buy and sell awesome & exclusive NFTs from our impressive collection of premium sellers. The best part of NFTSuit is that it has no transaction fees.</p>
+          <p>
+            We are India's first NFT buy-sell marketplace where you can buy and
+            sell awesome & exclusive NFTs from our impressive collection of
+            premium sellers. The best part of NFTSuit is that it has no
+            transaction fees.
+          </p>
         </div>
 
         <div className={styles.listcontainer}>
-          <div className={styles.listcontainer1}>
-            <h7 className={styles.listtitle}>Marketplace</h7>
-            <list className={styles.list}>
-              {Displaylist(list1)}
-            </list>
-          </div>
+          <div className={styles.meds}>
+            <div className={styles.listcontainer1}>
+              <h7 className={styles.listtitle}>Marketplace</h7>
+              <list className={styles.list}>{Displaylist(list1)}</list>
+            </div>
 
-          <div className={styles.listcontainer1}>
-            <h7 className={styles.listtitle}>My Account</h7>
-            <list className={styles.list}>
-              {Displaylist(list2)}
-            </list>
+            <div className={styles.listcontainer1}>
+              <h7 className={styles.listtitle}>My Account</h7>
+              <list className={styles.list}>{Displaylist(list2)}</list>
+            </div>
           </div>
-          <div className={styles.listcontainer1}>
-            <h7 className={styles.listtitle}>Resources</h7>
-            <list className={styles.list}>
-              {Displaylist(list3)}
-            </list>
-          </div>
+          <div className={styles.meds}>
+            <div className={styles.listcontainer1}>
+              <h7 className={styles.listtitle}>Resources</h7>
+              <list className={styles.list}>{Displaylist(list3)}</list>
+            </div>
 
-          <div className={styles.listcontainer1}>
-            <h7 className={styles.listtitle}>Company</h7>
-            <list className={styles.list}>
-              {Displaylist(list4)}
-            </list>
+            <div className={styles.listcontainer1}>
+              <h7 className={styles.listtitle}>Company</h7>
+              <list className={styles.list}>{Displaylist(list4)}</list>
+            </div>
           </div>
         </div>
 
@@ -127,19 +130,14 @@ const Listmain = () => {
                 {Displaylist(list4)}
               </list>
         </div> */}
-
       </div>
     </>
   );
 };
 export default Listmain;
 
-
-
-
-
-
-{/* <div className={styles.listcontainer}>
+{
+  /* <div className={styles.listcontainer}>
             <div className={styles.media1}>
             <h2 className={styles.listtitle}>Marketplace</h2>
             <list className={styles.list}>
@@ -166,19 +164,14 @@ export default Listmain;
             <list className={styles.list}>
               {Displaylist(list4)}
             </list>
-            </div> */}
-
-
-
-
-
+            </div> */
+}
 
 //   <footerup className={styles.footerup}>
 
 //   </footerup>
 //   <footerdown>
 //     <listcontainer className={styles.Listcontainer}>
-
 
 //
 
