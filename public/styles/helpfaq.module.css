@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+.backg{
+background-image: url(../images/help_bg.png);
+background-repeat: no-repeat;
+background-position: right;
+background-size: cover;
+}
+.accordiancontainer{
+    position:relative;
+    display: flex;
+    max-width:50%;
+    height:auto;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.chat{
+display: flex;
+justify-content: right;
+margin: 0em 2em 2em 0;
+}  
+.chat button{
+    padding: 10px 20px;
+    background: #FF7722;
+    width: 13%;
+    height: auto;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    border-radius: 20px;
+    font-family: 'Montserrat';
+font-style: normal;
+background-image: url(../images/chat.svg);
+background-repeat: no-repeat;
+background-position: 20%;
+background-size: 12%;
+}
+

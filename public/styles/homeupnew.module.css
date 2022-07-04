@@ -1,0 +1,48 @@
+
+.maincontainer
+{
+    background - image : url(../ images / bghome.png);
+    background - size : cover;
+    background - repeat : "no-repeat";
+    background - position : "center";
+}
+.bodycontainer
+{
+    max - width : 50 % ;
+}
+.headmain
+{
+position:
+    relative;
+    margin - top : 30 % ;
+    margin - left : 5 % ;
+    justify - content : space - around;
+    max - width : 100 % ;
+    font - family : "Otomanopee One";
+    font - style : normal;
+    font - weight : 400;
+    font - size : 54px;
+color:
+#ffffff;
+}
+.homelogocontainer
+{
+    max - width : 40 % ;
+    max - height : auto;
+}
+.homelogo
+{
+position:
+    relative;
+display:
+    flex;
+    /* flex-direction: column; */
+    flex - basis : 35 % ;
+padding:
+    20px;
+width:
+    30 % ;
+height:
+    auto;
+    margin - left : 60 % ;
+}

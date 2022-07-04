@@ -107,94 +107,9 @@ const Listmain = () => {
             </div>
           </div>
         </div>
-
-        {/* <div className={styles.listcontainer2}>
-          <div className={styles.listcontent2}>
-          <h7 className={styles.listtitle2}>My Account</h7>
-          <list className={styles.list2}>
-                {Displaylist(list2)}
-              </list>
-              </div>
-        </div> */}
-        {/* 
-          <div className={styles.listcontainer3}>
-          <h7 className={styles.listtitle3}>Resources</h7>
-          <list className={styles.list3}>
-                {Displaylist(list3)}
-              </list>
-        </div>
-
-           <div className={styles.listcontainer4}>
-          <h7 className={styles.listtitle4}>Company</h7>
-          <list className={styles.list4}>
-                {Displaylist(list4)}
-              </list>
-        </div> */}
       </div>
     </>
   );
 };
 export default Listmain;
 
-{
-  /* <div className={styles.listcontainer}>
-            <div className={styles.media1}>
-            <h2 className={styles.listtitle}>Marketplace</h2>
-            <list className={styles.list}>
-              {Displaylist(list1)}
-            </list>
-            </div>
-          </div>
-          <div className={styles.listcontainer}>
-            <div className={styles.media2}>
-  
-            </div>
-          </div>
-          <div className={styles.listcontainer}>
-            <div className={styles.media3}>
-            <h2 className={styles.listtitle}>Resources</h2>
-            <list className={styles.list}>
-              {Displaylist(list3)}
-            </list>
-            </div>
-          </div>
-          <div className={styles.listcontainer}>
-            <div className={styles.media4}>
-            <h2 className={styles.listtitle}>Company </h2>
-            <list className={styles.list}>
-              {Displaylist(list4)}
-            </list>
-            </div> */
-}
-
-//   <footerup className={styles.footerup}>
-
-//   </footerup>
-//   <footerdown>
-//     <listcontainer className={styles.Listcontainer}>
-
-//
-
-//       <h2 className={styles.listtitle}>Marketplace</h2>
-//       <list className={styles.list}>
-//         {Displaylist(list1)}
-//       </list>
-
-//       <h2 className={styles.myaccount}>My Account</h2>
-//       <list className={styles.Listsaccount}>
-//         {Displaylist(list2)}
-//       </list>
-
-//       <h2 className={styles.resource}>Resource</h2>
-//       <list className={styles.Listsresource}>
-//         {Displaylist(list3)}
-//       </list>
-
-//       <h2 className={styles.company}>Company</h2>
-//       <list className={styles.Listscompany}>
-//         {Displaylist(list4)}
-//       </list>
-
-//     </listcontainer>
-//   </footerdown>
-// </div>

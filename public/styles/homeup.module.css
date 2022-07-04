@@ -1,12 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Otomanopee+One&display=swap");
 
-
+.bodycontainer{
+  display: flex;
+}
 
 .headmain {
+  display: flex;
   width:50%;
   height:auto;
   margin-left: 2%;
-  margin-top: -30%;
+  padding-left: 2%;
+  margin-top: -40%;
   font-family: "Otomanopee One";
   font-style: normal;
   font-weight: 400;
@@ -27,45 +31,36 @@ color: #FFFFFF;
 }
 .button{
 display: flex;
-width: 45%;
+width: 30%;
 padding-left: 5%;
 }
 
 .explore{
-width:37%;
-height:auto;
+
+  text-transform: none;
 border: 2px solid #FFFFFF;
 border-radius: 5px;
-padding-left: 8%;
-padding-right: 8%;
-padding-top: 1.5%;
-padding-bottom: 1.5%;
   font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
 font-size: 22px;
-line-height: 137.4%;
+
 color: #FFFFFF;
 }
 .explore:hover{
    cursor: pointer;
+   border: 2px solid #FFFFFF;
 }
 .create{
-  margin-left: 10%;
-  width:37%;
-height:auto;
+  text-transform: none;
 background: #232323;
+border: 0px;
 border-radius: 5px;
-border-radius: 5px;
-padding-left: 8%;
-padding-right: 8%;
-padding-top: 1.5%;
-padding-bottom: 1.5%;
   font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
 font-size: 22px;
-line-height: 137.4%;
+
 color: #FFFFFF;
 }
 .create:hover{
@@ -221,3 +216,8 @@ width: 18%;
 
   color: #ede4e4;
 }
+
+
+
+/* New CSS */
+

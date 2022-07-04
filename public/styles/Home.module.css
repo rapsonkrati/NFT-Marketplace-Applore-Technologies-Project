@@ -1,98 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Otomanopee+One&display=swap");
 
 
-.hometop {
-  position: absolute;
-  width: 57px;
-  height: 22px;
-  left: 48px;
-  top: 19px;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 22px;
-  color: #ffffff;
-}
-.hometop:hover::after {
-  content: "";
-  height: 1px;
-  width: 60%;
-  border-radius: 10px;
-  background: #ffffff;
-  position: absolute;
-  left: calc(14% - 10%);
-  bottom: -1px;
-}
-.exploretop {
-  position: absolute;
-  width: 69px;
-  height: 22px;
-  left: 153px;
-  top: 19px;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 22px;
-  color: #ffffff;
-}
-.exploretop:hover::after {
-  content: "";
-  height: 1px;
-  width: 60%;
-  border-radius: 10px;
-  background: #ffffff;
-  position: absolute;
-  left: calc(14% - 10%);
-  bottom: -1px;
-}
-.createtop {
-  position: absolute;
-  width: 60px;
-  height: 22px;
-  left: 270px;
-  top: 19px;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 22px;
-  color: #ffffff;
-}
-.createtop:hover::after {
-  content: "";
-  height: 1px;
-  width: 60%;
-  border-radius: 10px;
-  background: #ffffff;
-  position: absolute;
-  left: calc(14% - 10%);
-  bottom: -1px;
-}
-.resourcestop {
-  position: absolute;
-  width: 83px;
-  height: 22px;
-  left: 378px;
-  top: 19px;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 22px;
-  color: #ffffff;
-}
-.resourcestop:hover::after {
-  content: "";
-  height: 1px;
-  width: 60%;
-  border-radius: 10px;
-  background: #ffffff;
-  position: absolute;
-  left: calc(14% - 10%);
-  bottom: -1px;
-}
 .contentd {
   position: absolute;
   width: 691px;
@@ -137,9 +45,7 @@
 }
 /* Discover Quote */
 
-.navcon {
-  display: flex;
-}
+
 
 .section1 {
   display: flex;
@@ -914,6 +820,10 @@
   background: #424242;
   box-shadow: 0px 4px 4px rgba(184, 176, 176, 0.25);
   border-radius: 10px;
+}
+/* Temprory to move footer down */
+.footermain{
+  margin-top: 5300px;
 }
 /* 
  FOOTER */

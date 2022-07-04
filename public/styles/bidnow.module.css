@@ -1,0 +1,202 @@
+.backg {
+    max-width: 100%;
+    /* background-image: url(../images/help_bg.png); */
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    background-color: #FFFFFF;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    /* color: black; */
+}
+.logobody{
+    display:flex;
+     margin-left: 15%;
+     max-height: 10%;
+     border:0px;
+     border-color: #FFFFFF;
+     background-color: #FFFFFF;
+}
+
+.logo{
+    background:url(../images/logo.svg);
+    width:60px;
+    max-height: 100%;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10%;
+   
+}
+
+.bidcontainer {
+    display: flex;
+}
+
+.bidimage {
+    display: flex;
+    width: 50%;
+    height: 500px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    background: url(../images/bidimage.png), #c4c4c4;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px;
+    border-radius: 20px;
+}
+
+.bidright {
+    /* display: flex; */
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 10%;
+    max-height: 20%;
+}
+
+.minbid{
+    display: flex;
+    margin-left: 10%;
+    max-width: 20%;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 28px;
+/* identical to box height, or 200% */
+
+
+color: #FFFFFF;
+}
+.amount{
+    display:flex;
+    margin-left: 10%;
+}
+
+.amt{
+    display: flex;
+    flex-direction: row;
+    max-width: 20%;
+    display:flex;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 28px;
+/* identical to box height, or 127% */
+
+
+color: #FFFFFF;
+}
+
+.amtdollar{
+    margin-left: 2%;
+    margin-top: 0%;
+    max-width: 20%;
+    display:flex;
+    flex-direction:row;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 28px;
+/* identical to box height, or 200% */
+
+
+color: #FFFFFF;
+}
+
+
+
+.bidbutton {
+    display: flex;
+    max-width: 60%;
+    margin-left: 10%;
+    background: #ff7722;
+    color: #ffff;
+    border: 0%;
+    border-color: #ff7722;
+    text-transform: none;
+    border-radius: 5px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.bidbutton:hover {
+    background-color: #ff7722;
+    border: 0%;
+    border-color: #ff7722;
+}
+.accordianbody{
+    margin-left: 8%;
+    max-width: 65%;
+    margin-top: 5%;
+}
+.accordian{
+    color: #FFFF;
+    background-color: black;
+    text-transform: none;
+    border-radius: 5px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+}
+.arrow{
+    color:#ECECEC;
+}
+.sale{
+    margin-left: 15%;
+    margin-top: 10%;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 28px;
+
+color: #A9A9A9;
+}
+
+.buyersbody{
+    max-width: 40%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    background-color: black;
+}
+.buyers{
+    margin-top: -10%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: #FFFFFF;
+}
+.weth{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+
+
+color: #FFFFFF;
+}
+.listing{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+
+
+color: #FFFFFF;
+}

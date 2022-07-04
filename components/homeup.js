@@ -3,10 +3,14 @@ import homelogo from "../public/images/homelogo.png";
 import Link from 'next/link';
 import Header from "../components/header";
 import Styles from "../public/styles/homeup.module.css";
+import * as React from 'react';
+import Stack from '@mui/material/Stack';
+import Button from '@mui/material/Button';
 const Homeup = () => {
     return (
 
         <>
+        <div className={Styles.bodycontainer}>
             <div style={{
                 backgroundImage: "url(./images/bghome.png)",
                 backgroundSize: "cover",
@@ -26,14 +30,17 @@ const Homeup = () => {
                     </div>
 
                     <div className={Styles.button}>
-                        <span className={Styles.explore} ><a href="/explorepage"></a>Explore</span>
-                        <span className={Styles.create}>Create</span>
+                        <Stack spacing={5} direction="row">
+                            <Button variant="outlined" href="/explorepage" className={Styles.explore}>Explore</Button>
+                            <Button variant="outlined" className={Styles.create}>Create</Button>
+                        </Stack>
                     </div>
+
                     <div className={Styles.achivement1cont}>
                         <span className={Styles.achivement1}>$34 billion</span>
-                        
+
                         <span className={Styles.achivement2}>876+</span>
-                        
+
                         <div className={Styles.achivement3}><span>42 million</span></div>
 
                     </div>
@@ -51,6 +58,7 @@ const Homeup = () => {
 
                 </div>
             </div>
+            </div>
 
         </>
     );
@@ -60,15 +68,19 @@ export default Homeup;
 
 
 
-      // <homeimage className={Styles.toplogo}></homeimage>
+{/* <div className={Styles.maincontainer}>
+    <Header></Header>
+    <div className={Styles.bodycontainer}>
+        <h1 className={Styles.headmain}>Explore, buy and sell amazing fine art, collectables and NFTs at NFTSuit.</h1>
+        <div className={Styles.homelogocontainer}>
+            <homeimage className={Styles.homelogo}>
+                <Image src={homelogo} />
+            </homeimage>
+        </div>
+    </div>
 
 
 
-      // <about >
 
-    
-      //   
 
-      //   <div className={Styles.achivement3}><span>42 million</span></div>
-      //   
-      // </about>
+</div> */}

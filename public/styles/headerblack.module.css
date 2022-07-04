@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Otomanopee+One&display=swap");
+
+
+.hometop {
+display: flex;
+}
+.hometop:hover {
+    color:#FF7722;
+}
+.exploretop {
+display: flex;;
+}
+.exploretop:hover {
+    color:#FF7722;
+}
+.createtop {
+display: flex;
+
+}
+.createtop:hover {
+    color:#FF7722;
+
+}
+.resourcestop {
+display: flex;
+
+}
+.resourcestop:hover {
+color:#FF7722;
+}
+
+.navcon {
+    padding-top: 1%;
+    padding-bottom: 1%;
+  flex-basis: 50%;
+  display: flex !important;
+  justify-content: space-around;
+  max-width: 30%;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+color: #000000;
+}
+@media only screen and (max-width: 890px) {
+    .navcon{
+        margin-left: 10%;
+    }
+    .hometop{
+        padding-left: 10%;
+        padding-right: 2%;
+    }
+    .exploretop{
+          padding-left: 2%;
+        padding-right: 2%;
+    }
+    .createtop{
+          padding-left: 2%;
+        padding-right: 2%;
+    }
+    .resourcestop{
+          padding-left: 2%;
+        padding-right: 2%;
+    }
+}
