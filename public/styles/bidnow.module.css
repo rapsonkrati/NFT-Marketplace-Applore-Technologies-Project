@@ -1,17 +1,17 @@
-.backg {
-    max-width: 100%;
-    /* background-image: url(../images/help_bg.png); */
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: cover;
-}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Otomanopee+One&display=swap");
 
+.mainbody{
+    display: flex;
+}
+.body{
+    display: flex;
+}
+/* New CSS */
 .header {
     display: flex;
     background-color: #FFFFFF;
     padding-bottom: 0.5%;
     padding-top: 0.5%;
-    /* color: black; */
 }
 .logobody{
     display:flex;
@@ -33,13 +33,23 @@
    
 }
 
-.bidcontainer {
+.backg {
+    display:flex;
+    max-width: 100%;
+    background-image: url(../images/help_bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+.containerleft{
     display: flex;
 }
-
+.flexchild {
+    flex: 1;
+}  
 .bidimage {
     display: flex;
-    width: 50%;
+    /* width: 50%; */
     height: 500px;
     margin-top: 10%;
     margin-bottom: 10%;
@@ -52,31 +62,140 @@
     border-radius: 20px;
 }
 
-.bidright {
-    /* display: flex; */
-    width: 40%;
-    margin-left: 10%;
-    margin-top: 10%;
-    max-height: 20%;
+
+/* Icon */
+.iconlineusername{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 137.4%;
+    color: #FFFFFF;
+}
+.iconline{
+    flex:1;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: -5%;
+}
+.tinyicons{
+    display:flex;
+    flex-direction: column;
+  position:relative ;
+ width: 70%;
+ margin-left: 50%;
+ justify-content: center;
+ 
 }
 
-.minbid{
-    display: flex;
+.tinyicons ul li {
+  display:inline-block;
+  background-color: #252525;
+ padding-left: 3%;
+ padding-right: 3%;
+ padding-top: 3%;
+ padding-bottom:3%;
+ margin-left: 6%;
+ border-radius: 15%;
+ justify-content: center;
+}
+.tinyicons li ul{
+    background-color: #FFFFFF;
+}
+.buyersbody{
+    display:block;
+    position: relative;
+    max-width: 100%;
+    margin-top: 10%;
     margin-left: 10%;
-    max-width: 20%;
-font-family: 'Montserrat';
+    background-color: black;
+}
+.buyers{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: #FFFFFF;
+}
+.listing{
+    font-family: 'Montserrat';
 font-style: normal;
-font-weight: 400;
-font-size: 14px;
+font-weight: 500;
+font-size: 18px;
 line-height: 28px;
-/* identical to box height, or 200% */
+margin-left: 50%;
+/* or 156% */
 
 
 color: #FFFFFF;
 }
+.ethimg{
+    flex: 1;
+}
+.ethimgbody{
+    display:flex;
+}
+
+.weth{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+
+
+color: #FFFFFF;
+}
+.wethtext{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400 !important;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+
+
+color: #FFFFFF;
+}
+.listinglight{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+
+
+color: #FFFFFF;
+}
+.listingbody{
+    display:flex;
+}
+.listingimg{
+    flex: 1;
+}
+/* Container body right */
+.bidright {
+    /* display: flex; */
+    width: 50%;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-top: 10%;
+    max-height: 20%;
+}
+.minbid{
+    display: flex;
+    margin-left: 13%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
 .amount{
     display:flex;
-    margin-left: 10%;
+    margin-left: 13%;
 }
 
 .amt{
@@ -89,9 +208,6 @@ font-style: normal;
 font-weight: 700;
 font-size: 22px;
 line-height: 28px;
-/* identical to box height, or 127% */
-
-
 color: #FFFFFF;
 }
 
@@ -111,32 +227,11 @@ line-height: 28px;
 
 color: #FFFFFF;
 }
-
-
-
-.bidbutton {
-    display: flex;
-    max-width: 60%;
-    margin-left: 10%;
-    background: #ff7722;
-    color: #ffff;
-    border: 0%;
-    border-color: #ff7722;
-    text-transform: none;
-    border-radius: 5px;
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 22px;
-}
-
-.bidbutton:hover {
-    background-color: #ff7722;
-    border: 0%;
-    border-color: #ff7722;
+.bidnowbody{
+    margin-left: 6%;
 }
 .accordianbody{
-    margin-left: 8%;
+    margin-left: 15%;
     max-width: 65%;
     margin-top: 5%;
 }
@@ -153,9 +248,26 @@ color: #FFFFFF;
 .arrow{
     color:#ECECEC;
 }
+
+.descrheading{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.descr{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
 .sale{
-    margin-left: 15%;
-    margin-top: 10%;
+    margin-left: 28%;
+    margin-top: 7%;
     font-family: 'Montserrat';
 font-style: normal;
 font-weight: 400;
@@ -165,38 +277,68 @@ line-height: 28px;
 color: #A9A9A9;
 }
 
-.buyersbody{
-    max-width: 40%;
-    margin-bottom: 10%;
-    margin-left: 10%;
-    background-color: black;
-}
-.buyers{
-    margin-top: -10%;
+.reviews{
     display: flex;
-    flex-direction: column;
-    background-color: black;
-    color: #FFFFFF;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    max-width: 90%;
+    width: 100%;
 }
-.weth{
-    font-family: 'Montserrat';
+.timerbody{
+    display:flex;
+    width: 268px;
+height: 57px;
+left: 1041px;
+top: 554px;
+
+background: #262626;
+border-radius: 10px;
+margin-left:30%;
+
+}
+.timertext{
+    flex:1;
+font-family: 'Montserrat';
 font-style: normal;
 font-weight: 600;
-font-size: 16px;
+font-size: 20px;
 line-height: 28px;
-/* identical to box height, or 175% */
-
-
 color: #FFFFFF;
 }
-.listing{
-    font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 28px;
-/* or 156% */
 
 
-color: #FFFFFF;
+/* Media Query */
+@media only screen and (max-width: 890px) {
+.tinyicons{
+  display:inline-block;
+  margin-right: 5%;
 }
+.tinyicons ul li {
+  display:inline-block;
+
+}
+.tinyicons ul{
+display:flex;
+
+}
+.amount{
+    display:flex;
+    margin-left: 0%;
+    justify-content: space-evenly;
+}
+.iconline{
+    flex: 10;
+}
+.iconlineusername{
+display: flex;
+}
+.iconline{
+    flex:1;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 0%;
+}
+
+} 
+

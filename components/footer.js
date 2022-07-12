@@ -1,11 +1,11 @@
 import Home from "../pages";
 import Displaylist from "./list";
 import styles from "../public/styles/footer.module.css";
-import discord from "../public/images/discord.svg";
-import fb from "../public/images/facebook.svg";
-import insta from "../public/images/insta.svg";
-import tweet from "../public/images/twitter.svg";
-import yt from "../public/images/youtube.svg";
+import discord from "../public/images/discord_black.svg";
+import fb from "../public/images/facebook_black.svg";
+import insta from "../public/images/insta_black.svg";
+import tweet from "../public/images/twitter_black.svg";
+import yt from "../public/images/youtube_black.svg";
 import displayicons from "./tinyicons";
 const Listmain = () => {
   var list1 = [
@@ -22,7 +22,7 @@ const Listmain = () => {
     { name: "Virtual Worlds", link: "#" },
   ];
   var list2 = [
-    { name: "Profile", link: "#" },
+    { name: "Profile", link: "/profile" },
     { name: "Favorites", link: "#" },
     { name: "Watchlist", link: "#" },
     { name: "My Collections", link: "#" },

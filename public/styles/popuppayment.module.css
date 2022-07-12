@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Otomanopee+One&display=swap");
+
+
+.bidbutton {
+    display: flex;
+    width: 60%;
+    margin-left: 10%;
+    background: #ff7722;
+    color: #ffff;
+    border: 0%;
+    border-color: #ff7722;
+    text-transform: none;
+    border-radius: 5px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.bidbutton:hover {
+    background-color: #ff7722;
+    border: 0%;
+    border-color: #ff7722;
+}
+.content{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.heading{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 28px;
+text-align: center;
+
+color: #DFDFDF;
+}
+.ethidbody{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    border: 0.5px solid #FFFFFF ;
+    border-radius: 20px;
+    width: 100%;
+    height: 13%;
+}
+.ethimg{
+    display: flex;
+    flex-direction: row;
+    background-image:url(../images/eth.svg);
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 5%;
+    height: 45%;
+    background-size: cover;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+.ethid{
+    display: flex;
+    padding-left: 10%;
+    max-width: 30%;
+    width: 100%;
+    max-height:2%;
+    height: 100%;
+    align-self: flex-start;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+
+}
+.firstline{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.eth{
+    display: flex;
+    margin-top: -5%;
+    height:5% ;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #A0A0A0;
+    margin-left: 20%;
+}
+.field {
+    display: flex;
+    padding-left:8%;
+    padding-top: 1.2%;
+    padding-bottom:1.2%;
+    margin-top: 5%;
+    /* margin-left:5%; */
+    border: 0px solid #292727;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    background: #292727;
+    color: #D1D1D1;
+    border-radius: 20px;
+    width:100%;
+    height: 8%;
+    justify-content: center;
+}
+
+
+.placebidbutton{
+    text-transform: none;
+        display: flex;
+        margin-top: 10%;
+        /* padding-left: 10%; */
+        justify-content: center;
+    /* max-width: 50%; */
+    width: 50%;
+    margin-left: 25%;
+    background: #ff7722;
+    border: 0%;
+    border-color: #ff7722;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.placebidbutton:hover {
+    background-color: #ff7722;
+    border: 0%;
+    border-color: #ff7722;
+}
+.paycard{
+    text-transform: none;
+    display: flex;
+    margin-top: 10%;
+    justify-content: left;
+    padding-left: 25%;
+    width: 100%;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    }
+.paycard:hover {
+    border: 0%;
+    border-color: #FFFFFF;
+}
+.visa{
+    background-image:url('../images/visa.svg');
+        width: 12%;
+    height:2%;
+    background-size: cover;
+    align-items: center;
+    background-repeat: no-repeat;
+margin-left: 60%;
+margin-top: -7%;
+}
+
+.biddingbalance{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 28px;
+/* identical to box height, or 200% */
+
+letter-spacing: -0.5px;
+
+color: #AAAAAA;
+}
+.imagefoliobody{
+    margin-left: 10%;
+    margin-top: 10%;
+}

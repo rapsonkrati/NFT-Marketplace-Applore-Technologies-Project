@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Otomanopee+One&display=swap");
+
+.header {
+    display: flex;
+    background-color: #FFFFFF;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+}
+.logobody{
+    display:flex;
+     margin-left: 15%;
+     max-height: 10%;
+     border:0px;
+     border-color: #FFFFFF;
+     background-color: #FFFFFF;
+}
+
+.logo{
+    background:url(../images/logo.svg);
+    width:60px;
+    max-height: 100%;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10%;
+   
+}
+.body{
+    display:block;
+    max-width:100%;
+    width:100%;
+}
+.headerimage{
+    display:flex;
+    max-width: 100%;
+    width: 100%;
+}
+.profilephoto{
+    display:flex;
+    max-width: 100%;
+    /* width: 100%; */
+    margin-left: 50%;
+    margin-top:-4%;
+}
+.username{
+    display:flex;
+    /* max-width: 100%; */
+    /* width: 100%; */
+    margin-left: 51%;
+    margin-top: 1%;
+}
+.ethidbody{
+    display: flex;
+    border: 0.1px solid #FFFFFF ;
+    border-radius: 20px;
+    margin-left:48% ;
+    margin-top:2%;
+    width: 15%;
+    height: auto;
+    background-color: #191919;
+
+}
+
+.ethid{
+    display: flex;
+    padding-left: 10%;
+    max-width: 30%;
+    width: 100%;
+    max-height:2%;
+    height: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #A2A2A2;
+
+}
+.ethimg{
+    margin-left: 10%;
+}
+.searchlinebody{
+    display: flex;
+    margin-top: 5%;
+    max-width: 100%;
+}
+.textbox{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 30%;
+    margin-top: 0.3%;
+    margin-left: 10%;
+}
+.searchbox{
+    display: flex;
+    
+
+}
+
+.textbox1{
+    /* display:flex; */
+    margin-left:2%;
+}
+.textbox2{
+    /* display:flex; */
+    margin-left:2%;
+}

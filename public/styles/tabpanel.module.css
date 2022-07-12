@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Otomanopee+One&display=swap");
+.body{
+    width: 90%;
+}
+.tab{
+    text-transform: none;
+    margin-left: 10%;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 28px;
+color: #CDCDCD;
+
+}
+.tab:focus{
+    color: white;
+}
+.tabpanel{
+    font-family: 'Montserrat';
+    /* padding-left: 5%; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+
+    color: #979797;
+}
+.reviewbody{
+    display: flex;
+    flex-direction: column;
+}
+.username{
+    display:flex;
+    flex:1;
+    background-image: url(../images/username_bidnow.svg);
+    background-repeat: no-repeat;
+}
+.usernameheading{
+    display: flex;
+    margin-left: 15%;
+    margin-top:1%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+/* Media Query */
+@media only screen and (max-width: 890px) {
+.body{
+    width: 60%;
+}
+.tab{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5%;
+}
+.reviewbody{
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    justify-content: space-around;
+}
+.usernameheading{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0%;
+    margin-top: 40%;
+}
+.username{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 100%;
+}
+
+} 
